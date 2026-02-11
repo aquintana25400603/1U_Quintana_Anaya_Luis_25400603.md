@@ -20,7 +20,6 @@ Definición: "Ningún cliente debe ser forzado a depender de métodos que no uti
   
 ## 2.5. D - Dependency Inversion Principle (DIP)
 Definición: "Las dependencias deben estar en las abstracciones, no en las concreciones". Los módulos de alto nivel no deben depender de los de bajo nivel; ambos deben depender de interfaces.
-
-# ¿Por qué es importante? 
+¿Por qué es importante? 
 Hace que tu código sea flexible. Si tu aplicación depende de una interfaz BaseDeDatos, puedes cambiar de MySQL a MongoDB sin cambiar ni una línea de tu lógica de negocio principal.
 
